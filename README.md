@@ -11,7 +11,6 @@ Este proyecto implementa un servidor y cliente de chat usando **sockets TCP/IP**
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/VCinthia/TSDS.Redes.PFO01.git
-   cd PFO01
    ```
 
 2. Ejecutar el servidor:
@@ -29,3 +28,6 @@ Este proyecto implementa un servidor y cliente de chat usando **sockets TCP/IP**
 ## Notas
 - El servidor crea automáticamente una base de datos `chat.db` si no existe.
 - Cada mensaje guardado incluye: contenido, fecha y hora de envío, IP del cliente.
+
+## Captura
+![Captura de pantalla de conexión y db](captura.png)
