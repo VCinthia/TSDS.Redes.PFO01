@@ -8,7 +8,7 @@ def main():
 
     try:
         while True:
-            mensaje = input("Escribe un mensaje o 'éxito' para salir: ")
+            mensaje = input("Escribe un mensaje || Ingrese 'éxito' o 'exito' para salir: ")
             if mensaje.lower() == "exito" or mensaje.lower() == "éxito":
                 break
             client_socket.sendall(mensaje.encode('utf-8'))
